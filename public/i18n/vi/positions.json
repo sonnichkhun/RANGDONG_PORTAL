@@ -1,0 +1,10 @@
+{
+  "positions.code": "Mã chức vụ",
+  "positions.detail.edit": "Thông tin chi tiết",
+  "positions.detail.title": "Thêm mới chức vụ",
+  "positions.master.title": "Danh sách chức vụ",
+  "positions.name": "Tên chức vụ",
+  "positions.placeholder.code": "Nhập mã chức vụ",
+  "positions.placeholder.name": "Nhập tên chức vụ",
+  "positions.status": "Trạng thái"
+}

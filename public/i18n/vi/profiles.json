@@ -1,0 +1,11 @@
+{
+  "profiles.changePass.title": "Đổi mật khẩu",
+  "profiles.confirmPass": "Nhập lại mật khẩu mới",
+  "profiles.general.title": "Thông tin chung",
+  "profiles.newPassword": "Mật khẩu mới",
+  "profiles.oldPassword": "Mật khẩu cũ",
+  "profiles.permission.title": "Phân quyền ứng dụng",
+  "profiles.placeholder.confirmPass": "Nhập lại mật khẩu",
+  "profiles.placeholder.newPassword": "Nhập mật khẩu mới",
+  "profiles.placeholder.oldPassword": "Nhập mật khẩu cũ"
+}

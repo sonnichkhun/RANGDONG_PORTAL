@@ -1,0 +1,13 @@
+{
+  "sites.code": "Mã phân hệ",
+  "sites.favicon": "Favicon",
+  "sites.icon": "Icon",
+  "sites.isDisplay": "Hiện thị",
+  "sites.logo": "Logo",
+  "sites.master.title": "Phân hệ",
+  "sites.name": "Tên phân hệ",
+  "sites.description": "Mô tả",
+  "sites.placeholder.code": "Nhập mã phân hệ",
+  "sites.placeholder.name": "Nhập tên phân hệ",
+  "sites.placeholder.description": "Nhập mô tả"
+}

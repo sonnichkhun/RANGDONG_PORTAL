@@ -1,0 +1,25 @@
+/* Style for AdvancedNumberFilter.tsx */
+@import "src/styles/variables";
+
+.ant-input-number {
+    margin-top: 0px !important;
+}
+.ant-input-number-focused,
+.ant-input-number:focus {
+    border-color: $red !important;
+    box-shadow: 0 0 0 2px rgba($red, 0.25) !important;
+}
+.ant-input-number-input {
+    padding-bottom: 3px !important;
+}
+
+.ant-input-number-handler-down:hover {
+    .anticon-down {
+        color: $red !important;
+    }
+}
+.ant-input-number-handler-up:hover {
+    .anticon-up {
+        color: $red !important;
+    }
+}

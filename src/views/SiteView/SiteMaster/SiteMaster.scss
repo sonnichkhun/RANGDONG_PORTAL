@@ -1,0 +1,214 @@
+@import '../../styles/variables';
+
+.login-page {
+  // height: 97vh !important;
+  background-color: transparent;
+  .btn-login {
+    width: 100px;
+  }
+  .logo {
+    margin-top: 8%;
+    left: 10%;
+    position: absolute;
+  }
+  .info-text {
+    margin-left: 80px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    color: #ff3a29;
+  }
+  /* Style for Login.tsx */
+
+  .login-frame {
+    margin-top: 8%;
+    right: 9%;
+    width: 650 !important;
+    height: 600 !important;
+    border-radius: 6px;
+    padding: 30px 50px 50px 50px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1),
+      0px 2px 4px rgba(0, 0, 0, 0.05);
+    position: absolute;
+    background-color: $white;
+
+    @mixin input-login {
+      background: #f8f8fc;
+      border: none;
+      border-bottom: 1px solid #d9d9d9;
+      height: 35px;
+      padding: 1px 3px;
+      padding-left: 10px;
+      border-radius: 3px;
+    }
+
+    .login-content {
+      .input-login {
+        min-width: 300px;
+        @include input-login();
+        &:focus {
+          box-shadow: unset;
+          outline: none;
+        }
+      }
+
+      .input-confirm {
+        &:focus {
+          box-shadow: unset;
+          outline: none;
+        }
+        @include input-login();
+      }
+
+      .login {
+        text-align: center;
+      }
+      .forgot-password {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+        color: #d42428;
+      }
+      .login button {
+        border-radius: 5px;
+        height: 40px;
+        justify-content: center;
+        background: #d42428;
+        border-color: #d42428 !important;
+      }
+
+      .title-content {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 58px;
+        font-weight: bold;
+        color: #000000;
+      }
+      .under-title {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 17px;
+        letter-spacing: 0.01em;
+        color: #7d7d89;
+      }
+      .back-to-login {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 17px;
+        letter-spacing: 0.01em;
+        color: #ff3a29;
+        margin-top: 13px;
+      }
+      .forgot-pass button {
+        border-radius: 5px;
+        height: 40px;
+        width: 150px;
+        justify-content: center;
+        background: #ff3a29;
+      }
+      .pointer:hover {
+        cursor: pointer;
+      }
+    }
+    .forgot-password-content {
+      .title-content {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 58px;
+        font-weight: bold;
+        color: #000000;
+      }
+
+      .under-title {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 17px;
+        letter-spacing: 0.01em;
+        color: #7d7d89;
+        margin-bottom: 20px;
+      }
+      .input-login {
+        min-width: 392px;
+        background: #f8f8fc;
+        border: none;
+        border-bottom: 1px solid #d9d9d9;
+        height: 35px;
+        padding: 1px 3px;
+        padding-left: 10px;
+        border-radius: 3px;
+      }
+      .back-to-login {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 17px;
+        letter-spacing: 0.01em;
+        color: #ff3a29;
+        margin-top: 13px;
+      }
+      .forgot-pass button {
+        border-radius: 5px;
+        height: 40px;
+        width: 150px;
+        justify-content: center;
+        background: #d42428;
+        &:focus {
+          outline: 1px solid #d42428;
+        }
+      }
+      .pointer:hover {
+        cursor: pointer;
+      }
+    }
+  }
+  @media screen and (min-width: 1920px) {
+    .login-frame {
+      right: 100px !important;
+      top: 23%;
+
+      .login-content {
+        .input-login {
+          min-width: 569px;
+        }
+      }
+    }
+  }
+
+  .btn-primary:not(:disabled):not(.disabled).active:focus,
+  .btn-primary:not(:disabled):not(.disabled):active:focus,
+  .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0px 2px 0 0px rgba(236, 70, 73, 0.2);
+  }
+  .tio-clear {
+    color: #ee534d;
+    font-size: 20px;
+  }
+  .tio-done {
+    color: #2cde32;
+    font-size: 20px;
+  }
+}
+
+.particles-js {
+  background-color: #ffffff;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+}
+
+.login-error {
+  background: #d42428;
+  border-radius: 5px;
+  color: #ffffff;
+  box-shadow: 0 0 10px 1px rgba(238, 83, 77, 0.7);
+}

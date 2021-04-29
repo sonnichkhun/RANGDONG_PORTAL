@@ -1,0 +1,200 @@
+
+
+
+    <div>
+            <table border="1" style="border-color:#ddd !important">
+                <thead>
+                    <tr>
+                        <th rowspan="2" style="background-color:#2F75B5; color:#fff;border-color:#ddd;font-size:13px;">STT</th>
+                        <th rowspan="2" style="background-color:#2F75B5; color:#fff;border-color:#ddd;font-size:13px;text-align:left;"> KỲ ĐÁNH GIÁ </th>
+                        <th rowspan="2" style="background-color:#2F75B5; color:#fff;border-color:#ddd;font-size:13px;text-align:left;">DỰ ÁN</th>
+                        <th rowspan="2" style="background-color:#2F75B5; color:#fff;border-color:#ddd;font-size:13px;text-align:left;">MILESTONE</th>
+                        <th rowspan="2" style="background-color:#2F75B5; color:#fff;border-color:#ddd;font-size:13px;"> APPROVED TS </th>
+                        
+                            <th data-delay="10" colspan="2" style="background-color:#2F75B5; color:#fff; width:140px;border-color:#ddd;font-size:13px;">Khối lượng/ Độ phức tạp</th>
+                            <th data-delay="10" colspan="2" style="background-color:#2F75B5; color:#fff; width:140px;border-color:#ddd;font-size:13px;">Tiến độ</th>
+                            <th data-delay="10" colspan="2" style="background-color:#2F75B5; color:#fff; width:140px;border-color:#ddd;font-size:13px;">Chất lượng c&#244;ng việc</th>
+                            <th data-delay="10" colspan="2" style="background-color:#2F75B5; color:#fff; width:140px;border-color:#ddd;font-size:13px;">Tu&#226;n thủ kỷ luật, th&#225;i độ c&#244;ng việc</th>
+                        <th colspan="2" style="background-color:#2F75B5; color:#fff; width:140px;border-color:#ddd;font-size:13px;">KẾT QUẢ</th>
+                        <th rowspan="2" style="background-color:#2F75B5; color:#fff;border-color:#ddd;font-size:13px;text-align:left;">NHẬN XÉT</th>
+                        <th rowspan="2" style="background-color:#2F75B5; color:#fff;border-color:#ddd;font-size:13px;text-align:left;">CBĐG</th>
+                        <th rowspan="2" style="background-color:#2F75B5; color:#fff;border-color:#ddd;font-size:13px;text-align:left;">
+                            TRẠNG THÁI
+                        </th>
+                    </tr>
+                    <tr>
+                            <th style="background-color:#2F75B5; color:#fff;border-color:#ddd;font-size:13px;">NV</th>
+                            <th style="background-color:#2F75B5; color:#fff;border-color:#ddd;font-size:13px;">QL</th>
+                            <th style="background-color:#2F75B5; color:#fff;border-color:#ddd;font-size:13px;">NV</th>
+                            <th style="background-color:#2F75B5; color:#fff;border-color:#ddd;font-size:13px;">QL</th>
+                            <th style="background-color:#2F75B5; color:#fff;border-color:#ddd;font-size:13px;">NV</th>
+                            <th style="background-color:#2F75B5; color:#fff;border-color:#ddd;font-size:13px;">QL</th>
+                            <th style="background-color:#2F75B5; color:#fff;border-color:#ddd;font-size:13px;">NV</th>
+                            <th style="background-color:#2F75B5; color:#fff;border-color:#ddd;font-size:13px;">QL</th>
+                        <th style="background-color:#2F75B5; color:#fff;border-color:#ddd;font-size:13px;">NV</th>
+                        <th style="background-color:#2F75B5; color:#fff;border-color:#ddd;font-size:13px;">QL</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                        <tr style="border-color: #ddd;">
+
+                            <td style="text-align: center; vertical-align: middle; color:#3c5464;border-color:#ddd;font-size:12px;">
+                                1
+                            </td>
+                            <td style="vertical-align: middle; color:#3c5464;border-color:#ddd;font-size:12px;">
+                                T10 2020
+                            </td>
+                            <td style="vertical-align: middle; color:#3c5464;border-color:#ddd;font-size:12px;">
+                                RD_DMS_Cung cấp phần mềm quản l&#253; b&#225;n h&#224;ng ph&#226;n phối cho Rạng Đ&#244;ng
+                            </td>
+                            <td style="vertical-align: middle; color:#3c5464;border-color:#ddd;font-size:12px;">
+                                4.Thiết kế phần mềm v&#224; triển khai b&#225;n h&#224;ng 2
+                            </td>
+                            <td style="text-align: center; vertical-align: middle; color:#3c5464;border-color:#ddd;font-size:12px;">
+                                40
+                            </td>
+                                <td style="text-align: center; vertical-align: middle; color:#3c5464;border-color:#ddd;font-size:12px;">
+                                        <span>N/A</span>
+                                </td>
+                                <td style="text-align: center; vertical-align: middle; color:#3c5464;border-color:#ddd;font-size:12px;">
+                                            <span>N/A</span>
+                                </td>
+                                <td style="text-align: center; vertical-align: middle; color:#3c5464;border-color:#ddd;font-size:12px;">
+                                        <span>N/A</span>
+                                </td>
+                                <td style="text-align: center; vertical-align: middle; color:#3c5464;border-color:#ddd;font-size:12px;">
+                                            <span>N/A</span>
+                                </td>
+                                <td style="text-align: center; vertical-align: middle; color:#3c5464;border-color:#ddd;font-size:12px;">
+                                        <span>N/A</span>
+                                </td>
+                                <td style="text-align: center; vertical-align: middle; color:#3c5464;border-color:#ddd;font-size:12px;">
+                                            <span>N/A</span>
+                                </td>
+                                <td style="text-align: center; vertical-align: middle; color:#3c5464;border-color:#ddd;font-size:12px;">
+                                        <span>N/A</span>
+                                </td>
+                                <td style="text-align: center; vertical-align: middle; color:#3c5464;border-color:#ddd;font-size:12px;">
+                                            <span>N/A</span>
+                                </td>
+                            
+                            <td style="text-align: center; vertical-align: middle; color:#3c5464;border-color:#ddd;font-size:12px;">
+                                        <span>N/A</span>
+                            </td>
+                            <td style="text-align: center; vertical-align: middle; color:#3c5464;border-color:#ddd;font-size:12px;">
+
+                                        <span>N/A</span>
+                            </td>
+                            <td style="vertical-align: middle; color:#3c5464;border-color:#ddd;font-size:12px;">
+                                <div>
+                                        <div style="width:160px;">
+                                        </div>
+                                        <div style="width:160px;">
+                                        </div>
+                                </div>
+                            </td>
+                            
+
+                            <td style="vertical-align: middle; color:#3c5464;border-color:#ddd;font-size:12px;">
+                                        <span>vudt19, </span>
+                                        <span>tunt13</span>
+                            </td>
+
+                                    <td style="text-align: center; vertical-align: middle; color:#3c5464;border-color:#ddd;font-size:12px;">
+                                            <span>OPEN</span>
+                                    </td>
+                        </tr>
+                        <tr style="border-color: #ddd;">
+
+                            <td style="text-align: center; vertical-align: middle; color:#3c5464;border-color:#ddd;font-size:12px;">
+                                2
+                            </td>
+                            <td style="vertical-align: middle; color:#3c5464;border-color:#ddd;font-size:12px;">
+                                T10 2020
+                            </td>
+                            <td style="vertical-align: middle; color:#3c5464;border-color:#ddd;font-size:12px;">
+                                RD_DMS_Cung cấp phần mềm quản l&#253; b&#225;n h&#224;ng ph&#226;n phối cho Rạng Đ&#244;ng
+                            </td>
+                            <td style="vertical-align: middle; color:#3c5464;border-color:#ddd;font-size:12px;">
+                                5.B&#224;n giao v&#224; nghiệm thu c&#244;ng nghệ
+                            </td>
+                            <td style="text-align: center; vertical-align: middle; color:#3c5464;border-color:#ddd;font-size:12px;">
+                                160
+                            </td>
+                                <td style="text-align: center; vertical-align: middle; color:#3c5464;border-color:#ddd;font-size:12px;">
+                                        <span>N/A</span>
+                                </td>
+                                <td style="text-align: center; vertical-align: middle; color:#3c5464;border-color:#ddd;font-size:12px;">
+                                            <span>N/A</span>
+                                </td>
+                                <td style="text-align: center; vertical-align: middle; color:#3c5464;border-color:#ddd;font-size:12px;">
+                                        <span>N/A</span>
+                                </td>
+                                <td style="text-align: center; vertical-align: middle; color:#3c5464;border-color:#ddd;font-size:12px;">
+                                            <span>N/A</span>
+                                </td>
+                                <td style="text-align: center; vertical-align: middle; color:#3c5464;border-color:#ddd;font-size:12px;">
+                                        <span>N/A</span>
+                                </td>
+                                <td style="text-align: center; vertical-align: middle; color:#3c5464;border-color:#ddd;font-size:12px;">
+                                            <span>N/A</span>
+                                </td>
+                                <td style="text-align: center; vertical-align: middle; color:#3c5464;border-color:#ddd;font-size:12px;">
+                                        <span>N/A</span>
+                                </td>
+                                <td style="text-align: center; vertical-align: middle; color:#3c5464;border-color:#ddd;font-size:12px;">
+                                            <span>N/A</span>
+                                </td>
+                            
+                            <td style="text-align: center; vertical-align: middle; color:#3c5464;border-color:#ddd;font-size:12px;">
+                                        <span>N/A</span>
+                            </td>
+                            <td style="text-align: center; vertical-align: middle; color:#3c5464;border-color:#ddd;font-size:12px;">
+
+                                        <span>N/A</span>
+                            </td>
+                            <td style="vertical-align: middle; color:#3c5464;border-color:#ddd;font-size:12px;">
+                                <div>
+                                        <div style="width:160px;">
+                                        </div>
+                                        <div style="width:160px;">
+                                        </div>
+                                </div>
+                            </td>
+                            
+
+                            <td style="vertical-align: middle; color:#3c5464;border-color:#ddd;font-size:12px;">
+                                        <span>vudt19, </span>
+                                        <span>tunt13</span>
+                            </td>
+
+                                    <td style="text-align: center; vertical-align: middle; color:#3c5464;border-color:#ddd;font-size:12px;">
+                                            <span>OPEN</span>
+                                    </td>
+                        </tr>
+                    <tr>
+
+                        <td colspan="18" style="background-color:#eff2f7;border-color:#ddd;font-size:12px;">
+                            <div class="row">
+                                <div>
+                                    <div style="float:right;width:150px;padding-right:2px;">
+                                        <label>Điểm trung bình:</label>
+                                        <span>
+                                                <span>N/A</span>
+                                        </span>
+                                    </div>
+                                    <div style="float:right;width:150px;padding-right:2px;">
+                                        <label>Xếp hạng:</label>
+                                        <span>
+                                                <span>N/A</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+    </div>

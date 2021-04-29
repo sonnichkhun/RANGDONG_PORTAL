@@ -1,0 +1,9 @@
+{
+  "taxTypes.code": "Mã loại thuế",
+  "taxTypes.detail.title": "Thông tin chi tiết",
+  "taxTypes.id": "ID",
+  "taxTypes.master.title": "Danh sách loại thuế",
+  "taxTypes.name": "Tên",
+  "taxTypes.percentage": "Phần trăm",
+  "taxTypes.status": ""
+}

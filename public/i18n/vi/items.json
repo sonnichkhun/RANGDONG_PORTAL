@@ -1,0 +1,23 @@
+{
+  "items.code": "Mã",
+  "items.detail.title": "",
+  "items.id": "",
+  "items.images": "",
+  "items.master.title": "",
+  "items.name": "Tên",
+  "items.placeholder.code": "Nhập mã sản phẩm",
+  "items.placeholder.name": "Nhập tên sản phẩm",
+  "items.placeholder.retailPrice": "",
+  "items.placeholder.salePrice": "",
+  "items.price": "",
+  "items.product": "",
+  "items.productGrouping": "Nhóm sản phẩm",
+  "items.productType": "Loại sản phẩm",
+  "items.retailPrice": "",
+  "items.salePrice": "Giá bán",
+  "items.saleStock": "Có thể bán",
+  "items.scanCode": "",
+  "items.selectedTable": "Danh sách sản phẩm đã chọn",
+  "items.status": "",
+  "items.supplier": "Nhà cung cấp"
+}

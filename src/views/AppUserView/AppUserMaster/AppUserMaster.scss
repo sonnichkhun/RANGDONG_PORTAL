@@ -1,0 +1,32 @@
+@import "src/styles/variables";
+.btn-action {
+    .btn-sm {
+        padding: 2px;
+    }
+}
+.display-username {
+    color: #1592f3;
+    text-decoration: underline;
+}
+.display-username:hover {
+    color: rgba($color: #1592f3, $alpha: 0.6);
+}
+.display-username:focus {
+    color: #1592f3;
+}
+// .btn-export-template{
+//     color
+// }
+.btn-export-template:hover {
+    background-color: $red;
+    color: #ffffff !important;
+}
+.image {
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+}
+.ant-select-focused .ant-select-selection {
+    border-color: $red !important;
+    // box-shadow: 0 0 0 2px rgba(24, 119, 242, 0.25) !important;
+}

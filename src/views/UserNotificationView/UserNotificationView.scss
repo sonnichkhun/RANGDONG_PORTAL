@@ -1,0 +1,49 @@
+@import "../../styles/variables";
+.user-notification {
+  a:hover {
+    color: $red;
+  }
+  .notification {
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+    padding: 10px;
+    @mixin icon-noti {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      padding: 16px;
+      i {
+        color: $white;
+        font-size: 16px;
+        margin-left: 0px;
+      }
+    }
+
+    .icon-noti-dms {
+      background-color: #ee534d;
+      @include icon-noti();
+    }
+    .icon-noti-portal {
+      background-color: #1877f2;
+      @include icon-noti();
+    }
+    .icon-noti-crm {
+      background-color: #22c293;
+      @include icon-noti();
+    }
+    .icon-noti-report {
+      background-color: #ffcf5c;
+      @include icon-noti();
+    }
+    .icon-noti-read {
+      background-color: #7d7d89;
+      @include icon-noti();
+    }
+    .read {
+      color: #7d7d89;
+    }
+    .unread {
+      color: #000000;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+@import "src/styles/variables";
+
+.input-number {
+  padding: 0!important;
+
+  .ant-input-number-input-wrap {
+    height: $input-height-sm;
+
+    input {
+      height: $input-height-sm;
+    }
+  }
+}

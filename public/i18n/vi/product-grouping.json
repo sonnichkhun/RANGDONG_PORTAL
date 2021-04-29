@@ -1,0 +1,11 @@
+{
+  "productGrouping.code": "Mã nhóm",
+  "productGrouping.description": "Mô tả",
+  "productGrouping.detail.addNode": "Thêm nhóm",
+  "productGrouping.master.product.code": "Mã sản phẩm",
+  "productGrouping.master.product.id": "ID",
+  "productGrouping.master.product.name": "Tên sản phẩm",
+  "productGrouping.master.product.supplier": "Nhà cung cấp",
+  "productGrouping.name": "Tên nhóm",
+  "productGrouping.parentGroup": "Nhóm cha"
+}

@@ -1,0 +1,212 @@
+// CoreUI Icons
+@import "~@coreui/icons/css/coreui-icons.min.css";
+// Font awesome
+@import "~font-awesome/css/font-awesome.css";
+
+// If you want to override variables do it here
+@import "variables";
+
+// Import styles
+@import "~@coreui/coreui/scss/coreui.scss";
+
+// Temp fix for reactstrap
+@import "~@coreui/coreui/scss/_dropdown-menu-right.scss";
+
+// If you want to add something do it here
+@import "custom";
+
+// ie fixes
+@import "ie-fix";
+
+.form-modal-detail {
+  .label-input {
+    white-space: nowrap;
+    min-width: 30%;
+    text-align: left;
+    font-weight: 500;
+    color: #3d464d;
+  }
+
+  .form-control {
+    max-width: 70%;
+  }
+
+  .ant-form-item-children {
+    display: flex;
+    align-items: center;
+  }
+  .modal-header {
+    .modal-title {
+      color: $red;
+    }
+  }
+  .ant-form-explain {
+    margin-left: 35%;
+  }
+}
+
+.page {
+  &.detail-page {
+    .ant-form-item-children {
+      display: flex;
+      align-items: center;
+      margin-left: 0.5rem;
+      margin-right: 1.5rem;
+    }
+    .label-input {
+      white-space: nowrap;
+      min-width: 30%;
+      text-align: left;
+    }
+
+    .form-control {
+      max-width: 70%;
+    }
+    .ant-row {
+      .ant-form-item {
+        padding: 10px;
+      }
+    }
+  }
+}
+
+.active i {
+  color: #2de178;
+}
+
+.btn-filter {
+  padding-left: 9.5px;
+}
+
+// Button reset
+.btn-outline-primary:hover {
+  svg {
+    path {
+      fill: #f9f9f9;
+    }
+  }
+}
+.btn-outline-primary {
+  svg {
+    margin-right: 4px;
+  }
+}
+.btn-export-template {
+  color: $red;
+}
+.btn-export-template:hover,
+.btn-export-template:focus {
+  background-color: $red;
+  box-shadow: 0 0 0 0.2rem rgba($red, 0.25);
+}
+.btn-export-template:focus {
+  background-color: $red;
+  color: #ffffff !important;
+}
+.display-code {
+  color: #1592f3;
+  text-decoration: underline;
+}
+.display-code:hover {
+  color: rgba($color: #1592f3, $alpha: 0.6);
+}
+.display-code:focus {
+  color: #1592f3;
+}
+
+.btn-approve {
+  background-color: #07d79b;
+  color: $white;
+  &:hover {
+    color: $white;
+    background-color: #59c189;
+  }
+}
+
+.btn-reject {
+  color: $white;
+  background-color: #fdb32b;
+  &:hover {
+    color: $white;
+    background-color: #e8a324;
+  }
+}
+.local-table {
+  .ant-table-content {
+    .ant-table-header-column {
+      width: 100%;
+    }
+  }
+}
+
+@mixin state {
+  font-size: 12px;
+  text-transform: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.new-state {
+  @include state();
+  color: #745aef;
+  border: 1px solid #745aef;
+}
+
+.pending-state {
+  @include state();
+  color: #e89922;
+  border: 1px solid #e89922;
+}
+
+.approved-state {
+  @include state();
+  color: #07d79b;
+  border: 1px solid #07d79b;
+}
+.rejected-state {
+  @include state();
+  color: #7d71f1;
+  border: 1px solid #7d71f1;
+}
+
+.ant-form-item-children {
+  color: #000000;
+}
+
+span.btn-bulk-delete {
+  display: contents !important;
+  background-color: $red;
+  button {
+    background-color: $red;
+    border: unset;
+    height: 28px;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.76563rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+    margin-right: 0.5rem;
+  }
+  button:disabled {
+    opacity: 0.65;
+  }
+}
+
+.ant-form-item-children {
+  color: #000000;
+}
+
+.ant-form-explain {
+  color: $red;
+  margin-left: 33%;
+  margin-top: 10px;
+  font-size: 11px;
+}
+
+// @media screen and (min-width: 1920px) {
+//   .ant-form-explain {
+//     margin-left: 32% !important;
+//   }
+// }
+.dropdown-item:active {
+  background-color: #f0f3f5 !important;
+}

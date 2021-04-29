@@ -1,0 +1,14 @@
+#app {
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  .tox-notifications-container {
+    display: none !important;
+  }
+}
+.checking {
+  display: block !important;
+}

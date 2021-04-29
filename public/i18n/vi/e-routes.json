@@ -1,0 +1,22 @@
+{
+  "eRoutes.code": "Mã tuyến",
+  "eRoutes.creator": "Người tạo",
+  "eRoutes.detail.title": "Thông tin chi tiết",
+  "eRoutes.eRouteType": "Loại tuyến",
+  "eRoutes.endDate": "Ngày kết thúc",
+  "eRoutes.master.title": "Danh sách tuyến",
+  "eRoutes.name": "Tên tuyến",
+  "eRoutes.placeholder.code": "Nhập mã tuyến",
+  "eRoutes.placeholder.eRouteType": "Chọn loại tuyến",
+  "eRoutes.placeholder.endDate": "Chọn ngày kết thúc",
+  "eRoutes.placeholder.name": "Nhập tên tuyến",
+  "eRoutes.placeholder.saleEmployee": "Chọn nhân viên",
+  "eRoutes.placeholder.startDate": "Chọn ngày bắt đầu",
+  "eRoutes.placeholder.store": "Chọn cửa hàng",
+  "eRoutes.requestState": "Trạng thái kế hoạch",
+  "eRoutes.saleEmployee": "Nhân viên kinh doanh",
+  "eRoutes.startDate": "Ngày bắt đầu",
+  "eRoutes.status": "Trạng thái",
+  "eRoutes.store": "Cửa hàng",
+  "eRoutes.title.store": "Danh sách cửa hàng"
+}

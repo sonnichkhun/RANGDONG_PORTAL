@@ -1,0 +1,10 @@
+/* Style for AdvancedStringFilter.tsx */
+@import "src/styles/variables";
+.advanced-string-filter {
+  height: 28px !important;
+}
+.advanced-string-filter:hover,
+.advanced-string-filter:focus {
+  border-color: $red !important;
+  box-shadow: rgba($color: $red, $alpha: 0.2) !important;
+}

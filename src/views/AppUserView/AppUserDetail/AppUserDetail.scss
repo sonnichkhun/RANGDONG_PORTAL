@@ -1,0 +1,35 @@
+@import "src/styles/variables";
+.app-user-detail {
+    .title {
+        border-top: 1px solid #e8e8e8;
+        padding-left: 33px !important;
+        padding-top: 20px !important;
+    }
+    .label-input {
+        color: $textColor;
+    }
+    // .switch-permisition {
+    //     .ant-switch-checked {
+    //         background-color: $red !important;
+    //     }
+    // }
+}
+
+.ant-radio-checked {
+    .ant-radio-inner {
+        border-color: $red !important;
+    }
+    .ant-radio-inner::after {
+        background-color: $red !important;
+    }
+}
+.ant-radio:hover .ant-radio-inner {
+    border-color: $red !important;
+}
+
+.ant-select-selection:hover {
+    border-color: $red !important;
+}
+.ant-select-tree li .ant-select-tree-node-content-wrapper:hover {
+    background-color: rgba($color: $red, $alpha: 0.1) !important;
+}
